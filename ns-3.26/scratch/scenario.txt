@@ -1,0 +1,11 @@
+# ap/client(0/1) macAddress(oa:0b:0c:0d:0e:0f) trafficClass(0/1/2/3) coordinates(x,y,z)
+# random line to test
+AP   00:00:00:00:00:01  AC_UNDEF  0,0,0
+STA  00:00:00:00:00:02  AC_VO     2,3,1.3
+STA  00:00:00:00:00:03  AC_VO     1,4,1.3
+STA  00:00:00:00:00:04  AC_BE     3,1,1.3
+STA  00:00:00:00:00:05  AC_BE     1,1,1.3
+STA  00:00:00:00:00:06  AC_BE     1,3,1.3
+STA  00:00:00:00:00:07  AC_VI     4,2,1.3
+STA  00:00:00:00:00:08  AC_VI     4,2,1.3
+STA  00:00:00:00:00:09  AC_VI     4,2,1.3
