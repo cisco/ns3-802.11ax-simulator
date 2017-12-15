@@ -16,12 +16,20 @@ compatible with ns-3.26 only
 Patch and build 
 =============
 Clone the cisco github repository 
+
     $ git clone https://github.com/cisco/ns3-802.11ax-simulator <cloneDir>
+	
 Apply the patch and add files from ciso cloned repo to the ns3 installated directory
+
     $ cd <ns3_installed_dir>
+    
     $ find <cloneDir>/ns-3.26 -type f  -exec cp {} {} \;
+    
     $ git apply <cloneDir>/tools/ofdma.patch
+    
+    
 Build
+
     $ ./waf build
 
 
