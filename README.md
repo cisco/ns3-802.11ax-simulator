@@ -35,19 +35,27 @@ Build
 
 Usage with example
 ================
+
 Run Program
+
     $ ./waf --run scratch/wifi-ofdma-multi-traffic	 - builds and runs
-    To debug if something goes wrong in run time
+    
+To debug if something goes wrong in run time
+
     $ ./waf --run scratch/wifi-ofdma-multi-traffic "--command-template=gdb/lldb %s"
-Modifying program
+    
+Passing parameters to the program
+
     Some variables such as packet size, number of packet etc can be modified by command 
     line argument passing as well
+    
     $ ./waf --run scratch/wifi-ofdma-multi-traffic "--numPackets=10"
 
 
 Models
 ======
 Newly added Models:
+
     RRMWifiManager, HEWifiChannelHelper, HEWifiPhyHelper, HEWifiPhy, HEWifiChannel, 
     Enterprise11axPropagationLossModel, HEBitMap, PerTag
     
