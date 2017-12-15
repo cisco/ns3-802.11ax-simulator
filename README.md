@@ -6,7 +6,7 @@ existing ones to support OFDMA/802.11ax type of WLAN systems. This simulator
 includes MAC and abstracted PHY layers.
 Note : Our code is not fully compliant with IEEE802.11ax standard
 
-Downloading and Installation - http://www.nsnam.org/wiki/Installation
+Downloading and Installation 
 ============================
 Follow the https://www.nsnam.org/wiki/Installation#Installation to install and 
 build an ns3 repo. Make sure you install the ns-3.26 version as the patch is 
