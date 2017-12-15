@@ -15,11 +15,11 @@ compatible with ns-3.26 only
 	
 Patch and build 
 =============
-Clone the cisco github repository 
+Clone the Cisco github repository 
 
     $ git clone https://github.com/cisco/ns3-802.11ax-simulator <cloneDir>
 	
-Apply the patch and add files from ciso cloned repo to the ns3 installated directory
+Apply the patch and add files from cloned Cisco repo to the ns3 installated directory
 
     $ cd <ns3_installed_dir>
     
